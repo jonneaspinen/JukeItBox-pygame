@@ -3,7 +3,7 @@ import pygame
 import random
 import sys
 # components
-import button
+import button_class
 import player_control
 import killer_class
 
@@ -153,7 +153,7 @@ def draw_win():
     WINDOW.blit(win_text, (WIN_WIDTH/2 - win_text.get_width()/2, 200))
 
     # restart button
-    restart_button = button.Button(
+    restart_button = button_class.Button(
         WIN_WIDTH/2 - RESTART_IMG.get_width()/2, 400, RESTART_IMG)
 
     if restart_button.draw(WINDOW):
@@ -161,7 +161,7 @@ def draw_win():
         reset()
 
     # exit button
-    exit_button = button.Button(
+    exit_button = button_class.Button(
         WIN_WIDTH/2 - EXIT_IMG.get_width()/2, 550, EXIT_IMG)
 
     if exit_button.draw(WINDOW):
@@ -195,7 +195,7 @@ def draw_lost():
     WINDOW.fill((30, 30, 30))
 
     # restart button
-    restart_button = button.Button(
+    restart_button = button_class.Button(
         WIN_WIDTH/2 - RESTART_IMG.get_width()/2, 200, RESTART_IMG)
 
     if restart_button.draw(WINDOW):
@@ -243,7 +243,7 @@ def draw_menu():
     WINDOW.fill((30, 30, 30))
 
     # start button
-    start_button = button.Button(
+    start_button = button_class.Button(
         WIN_WIDTH/2 - START_IMG.get_width()/2, 200, START_IMG)
 
     if start_button.draw(WINDOW):
