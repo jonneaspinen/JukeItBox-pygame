@@ -1,6 +1,7 @@
 import pygame
 pygame.init()
 
+
 class Button():
     def __init__(self, x, y, image):
         self.image = image
@@ -13,7 +14,7 @@ class Button():
         m_pos = pygame.mouse.get_pos()
         # check if the mouse cursor in on the button
         if self.rect.collidepoint(m_pos):
-            # if left mouse (=[0]) is clicked, make 'clicked' False
+            # if left mouse (=[0]) is clicked, make 'clicked' True
             # we have the 'clicked' variable, because 'get_pressed' registers multiple
             # clicks with only one click, this way we restrict it to only register once
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
