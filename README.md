@@ -1,4 +1,4 @@
-![Logo](assets/images/junkitbox_logo.png)
+![Logo](assets/images/junkitbox_logo.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Enemy](assets/images/killer2.png)
 # JukeItBox
 ***A little game made with Python and Pygame.***
 
@@ -6,7 +6,7 @@ Navigate your way through falling enemies.
 
 Arrowkeys to control.
 
-![Enemy](assets/images/killer2.png)
+
 
 ---
 
