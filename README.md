@@ -12,7 +12,12 @@ Arrowkeys to control.
 
 ### How to download and play the game?
 
-Clone the repository and run JukeItBox.py with python.
+**option 1**
+- Clone the repository and run JukeItBox.py with python.
+
+**option 2**
+- Download [JukeItBox.zip](JukeItBox.zip), unpack it and run JukeItBox.exe
+    - Make sure you have the 'assets' in the same folder as the .exe file.
     
 ---
 
